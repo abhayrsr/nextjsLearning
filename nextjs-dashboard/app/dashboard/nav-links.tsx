@@ -15,8 +15,8 @@ export default function NavLinks() {
   const pathname = usePathname();
   const links = [
   { href: '/', name: 'dashboard' },
-  { href: '/dashboard/customers', label: 'customers' },
-  { href: '/dashboard/invoices', label: 'invoices' },
+  { href: '/dashboard/customers', name: 'customers' },
+  { href: '/dashboard/invoices', name: 'invoices' },
 ];
  
   return (
