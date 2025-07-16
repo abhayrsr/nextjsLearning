@@ -13,6 +13,11 @@ import clsx from 'clsx';
  
 export default function NavLinks() {
   const pathname = usePathname();
+  const links = [
+  { href: '/', name: 'dashboard' },
+  { href: '/dashboard/customers', label: 'customers' },
+  { href: '/dashboard/invoices', label: 'invoices' },
+];
  
   return (
     <>
