@@ -1,4 +1,4 @@
-export default function ProductDetailsLayout({children}:{children: React.ReactNode;}){
+eport default function ProductDetailsLayout({children}:{children: React.ReactNode;}){
     return (
         <>
         {children}
